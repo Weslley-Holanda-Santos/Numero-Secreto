@@ -1,0 +1,244 @@
+body{
+    background-color:white;
+    background-image: url(../img/gaming.room.jpg);
+    background-repeat: space;
+    background-size: cover;
+}
+
+h1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 60px;
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 70px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 35px black;
+    width: 360px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+
+h2:hover{
+    text-decoration: underline;
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5%;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: rgb(70, 9, 85);
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(23, 3, 27);
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    width: 80%;
+}
+
+div{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div h3{
+    text-align: center;
+    cursor: pointer;
+    font-size:30px;
+    display: block;
+}
+
+div p {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.bloco{
+    display: none;
+    margin-top: -20px;
+}
+
+.facil{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 65px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 35px black;
+    width: 235px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.facil h3,a{
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+
+}
+.medio{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 65px;
+    cursor: pointer;
+    box-shadow: 0px 0px 35px black;
+    width: 235px;
+    height: 200px;
+    border-radius: 100px;
+}
+.medio h3,a{
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+.dificil{
+    text-align: center;
+    font-size: 40px;
+    padding: 65px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 35px black;
+    width: 235px;
+    height: 200px;
+    border-radius: 100px;
+}
+.dificil h3,a{
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+
+.extremo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 65px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 0px 35px black;
+    width: 235px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.extremo h3,a{
+    background: -webkit-linear-gradient(45deg,purple,red,blue,green,rgb(224, 64, 158));
+    background-size: 150% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text_gradient 5s infinite;
+}
+
+  @keyframes text_gradient {
+    0% {
+      background-position-x: 0%;
+    }
+
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:399px) {
+   
+    body{background-image: none;}
+    h1{font-size: 26px;}
+    
+    h2{
+        font-size: 15px;
+        width:130px;
+        padding:40px;
+        height:15px;
+        border-radius:none;
+    }
+   
+    a{font-size: 16px; margin:25px;}
+    p{font-size: 18px;}
+    div p{font-size:16px;}
+    div h3{font-size: 18px;}
+    .bloco{  width:180px ;}
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:785px) {
+    
+   body{
+    background-image:url(../img/gaming.room.jpg);
+}
+
+    h1{font-size: 50px;}
+    h2{
+        font-size:23px;
+        width:205px;
+        height:30px;
+        padding:50px;
+    }
+    a{font-size: 25px; margin:20px;}
+    p{font-size: 25px;}
+    div p{font-size:20px;}
+    div h3{font-size:25px;}
+
+    
+
+}
+
+
+@media screen and (min-width:1400px)  {
+   
+    h1{font-size: 65px;}
+    h2{font-size: 48px;}
+    a{font-size: 35px; margin:25px;}
+    p{font-size: 45px;}
+    div p{font-size:30px;}
+    div h3{font-size:35px;}
+    div{width: 320px;}
+
+}
